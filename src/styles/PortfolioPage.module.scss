@@ -1,0 +1,54 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .content_wrapper {
+        flex-grow: 1;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .header {
+            // background-color: blueviolet;
+            // align-items: stretch;
+            width: 80%;
+            height: 75px;
+            margin: 25px 20px 50px 20px;
+            border-radius: 40px;
+            border: 1px solid #666;
+        }
+        .content {
+            flex-grow: 1;
+            // background-color: burlywood;
+            width: 80%;
+            border-radius: 40px;
+            border: 1px solid #666;
+            margin-bottom: 75px;
+            .points_wrapper {
+                align-items: stretch;
+                margin: 50px 25px 25px 25px;
+                flex-grow: 1;
+                .point {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: white;
+                    margin-bottom: 35px;
+                }
+            }
+
+            button {
+                margin: auto;
+                width: 150px;
+                height: 60px;
+                border-radius: 50px;
+                border: none;
+                display: block;
+                background-color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.wrapper {
+    .content {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .buttons {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        a {
+            display: block;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 95px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            border-radius: 50%;
+        }
+    }
+}

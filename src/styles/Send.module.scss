@@ -1,0 +1,33 @@
+.wrapper {
+    .contact_form {
+        input {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        .message {
+            display: block;
+            margin: 20px auto;
+            height: 200px;
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid black;
+        }
+        button {
+            display: block;
+            margin: 30px auto;
+            width: 120px;
+            height: 50px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+    }
+}

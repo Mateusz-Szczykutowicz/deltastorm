@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    .portfolio_wrapper {
+        flex-grow: 1;
+        width: 100%;
+        .portfolio {
+            width: 300px;
+            height: 120px;
+            background: rgb(0, 152, 253);
+            margin: 30px auto;
+        }
+    }
+}
